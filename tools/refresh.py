@@ -47,13 +47,23 @@ def main():
         for name, q in queries.items():
             out = os.path.join(DATA, "lists", f"{name}.json")
             # Finished months don't change much; re-list only the current month, open PRs and missing windows.
-            if not (os.path.exists(out) and this_month not in name and not name.startswith("open")):
+            cached = os.path.exists(out) and len(json.load(open(out, encoding="utf-8"))) > 0
+            if not (cached and this_month not in name and not name.startswith("open")):
                 sh([sys.executable, "scrape_list_prs.py", q, out, "", str(a.max_pages)])
                 if len(json.load(open(out, encoding="utf-8"))) >= 1000:
                     print(f"WARNING: {name} hit the 1,000-result cap; split this window further", file=sys.stderr)
             for k, v in json.load(open(out, encoding="utf-8")).items():
                 if v["author"].endswith("[bot]"): continue
-                if v["comments"] >= 2: nums.add(int(k))
+                # search counts conversation comments only (not inline review comments), so keep anything with 1+
+                if v["comments"] >= 1: nums.add(int(k))
+        # A cached PR page is stale if GitHub says the PR was updated after we saved it: drop it so it is re-fetched.
+        stale = 0
+        for f in glob.glob(os.path.join(DATA, "lists", "*.json")):
+            for k, v in json.load(open(f, encoding="utf-8")).items():
+                p = os.path.join(DATA, "prs", f"{k}.json")
+                if os.path.exists(p) and v.get("updated", "") > datetime.date.fromtimestamp(os.path.getmtime(p)).isoformat():
+                    os.remove(p); stale += 1
+        if stale: print(f"{stale} cached PRs changed since they were fetched; re-fetching them", file=sys.stderr)
         numfile = os.path.join(DATA, "nums.txt"); open(numfile, "w", encoding="utf-8").write("\n".join(map(str, sorted(nums, reverse=True))))
         print(f"{len(nums)} PRs to fetch (cached ones are skipped)", file=sys.stderr)
         sh([sys.executable, "scrape_fetch_prs.py", numfile])

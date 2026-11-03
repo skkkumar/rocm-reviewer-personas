@@ -103,7 +103,67 @@ def get_pr(num):
     print(num, len(out), len(reviews), len(seen), file=sys.stderr)
     time.sleep(0.5)
 
+# ---------- API mode (used when GITHUB_TOKEN / GH_TOKEN is set) ----------
+# Same output schema as the HTML scraper, but exact: full file paths, outdated flags, review states and bodies.
+# Costs 4+ requests per PR, so it needs a token (5,000 requests/hour); unauthenticated is only 60/hour.
+TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+
+def api(path):
+    import urllib.request, urllib.error
+    out, url = [], "https://api.github.com/repos/vllm-project/vllm/" + path
+    while url:
+        hdr = {"Accept": "application/vnd.github+json", "User-Agent": "rocm-reviewer-personas"}
+        if TOKEN: hdr["Authorization"] = "Bearer " + TOKEN
+        req = urllib.request.Request(url, headers=hdr)
+        for attempt in range(5):
+            try:
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    data = json.loads(r.read().decode("utf-8")); link = r.headers.get("Link", "")
+                break
+            except urllib.error.HTTPError as e:
+                if e.code in (403, 429):
+                    reset = int(e.headers.get("x-ratelimit-reset", "0") or 0)
+                    time.sleep(max(10, min(900, reset - int(time.time()) + 2)) if reset else 60); continue
+                raise
+        else:
+            raise RuntimeError("GitHub API kept failing for " + url)
+        if isinstance(data, dict): return data
+        out += data
+        m = re.search(r'<([^>]+)>;\s*rel="next"', link); url = m.group(1) if m else None
+    return out
+
+def get_pr_api(num):
+    path = f"{OUT}/{num}.json"
+    if os.path.exists(path): return
+    try:
+        pr = api(f"pulls/{num}")
+        rc = api(f"pulls/{num}/comments?per_page=100"); ic = api(f"issues/{num}/comments?per_page=100"); rv = api(f"pulls/{num}/reviews?per_page=100")
+    except Exception as e:
+        print("FAIL", num, e, file=sys.stderr); return
+    login = lambda u: (u or {}).get("login", "")
+    meta = {"num": num, "title": pr.get("title", ""), "files_changed": str(pr.get("changed_files", "")),
+            "diffstat": f"+{pr.get('additions', 0)} -{pr.get('deletions', 0)}"}
+    if pr.get("merged_by"): meta["merged_by"] = login(pr["merged_by"])
+    items = []
+    for c in rc:
+        items.append({"author": login(c.get("user")), "time": c.get("created_at", ""), "body": (c.get("body") or "")[:5000], "type": "review_comment",
+                      "minimized": False, "file": c.get("path"), "outdated": c.get("position") is None, "resolved": None,
+                      "suggestion": "```suggestion" in (c.get("body") or "")})
+    for c in ic:
+        items.append({"author": login(c.get("user")), "time": c.get("created_at", ""), "body": (c.get("body") or "")[:5000], "type": "comment", "minimized": False})
+    reviews = []
+    st = {"APPROVED": "approved", "CHANGES_REQUESTED": "changes_requested", "DISMISSED": "dismissed"}
+    for r in rv:
+        if r.get("body"):
+            items.append({"author": login(r.get("user")), "time": r.get("submitted_at") or "", "body": r["body"][:5000], "type": "comment", "minimized": False})
+        if r.get("state") in st:
+            reviews.append({"author": login(r.get("user")), "state": st[r["state"]], "time": r.get("submitted_at") or ""})
+    items.sort(key=lambda x: x["time"] or "9")
+    json.dump({"meta": meta, "comments": items, "reviews": reviews}, open(path, "w", encoding="utf-8"), indent=0)
+    print(num, len(items), len(reviews), "api", file=sys.stderr)
+
 if __name__ == "__main__":
     nums = [int(x) for x in open(sys.argv[1], encoding="utf-8").read().split()]
+    print("mode:", "GitHub API (token)" if TOKEN else "HTML pages (no token)", file=sys.stderr)
     with ThreadPoolExecutor(max_workers=3) as ex:
-        list(ex.map(get_pr, nums))
+        list(ex.map(get_pr_api if TOKEN else get_pr, nums))
