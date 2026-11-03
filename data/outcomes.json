@@ -1,0 +1,8174 @@
+{
+"built": "2026-10-06",
+"by_file": {
+"common.py": {
+"n_prs": 4,
+"merged": 0,
+"closed": 4,
+"median_days_to_merge": null,
+"median_comments": 13.0,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"LucasWilkinson",
+16
+],
+[
+"tjtanaa",
+14
+],
+[
+"ProExpertProg",
+9
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+9
+],
+[
+"accuracy",
+2
+],
+[
+"flags",
+2
+],
+[
+"rebase/precommit",
+2
+],
+[
+"blast radius",
+1
+],
+[
+"aiter pin",
+1
+],
+[
+"e2e perf",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": []
+},
+"layer.py": {
+"n_prs": 6,
+"merged": 3,
+"closed": 3,
+"median_days_to_merge": 7,
+"median_comments": 15.5,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"tjtanaa",
+23
+],
+[
+"JartX",
+14
+],
+[
+"ProExpertProg",
+10
+],
+[
+"hongxiayang",
+6
+],
+[
+"BowenBao",
+4
+],
+[
+"fxmarty-amd",
+4
+],
+[
+"Fangzhou-Ai",
+1
+],
+[
+"mgoin",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+6
+],
+[
+"blast radius",
+4
+],
+[
+"accuracy",
+4
+],
+[
+"e2e perf",
+4
+],
+[
+"platform guard",
+2
+],
+[
+"aiter pin",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+44075,
+7,
+"merged"
+],
+[
+46545,
+3,
+"merged"
+],
+[
+42595,
+15,
+"merged"
+]
+]
+},
+"rocm_aiter_fa.py": {
+"n_prs": 7,
+"merged": 2,
+"closed": 5,
+"median_days_to_merge": 20.0,
+"median_comments": 3,
+"median_rounds": 2,
+"reviewers": [
+[
+"tjtanaa",
+4
+],
+[
+"Rohan138",
+3
+],
+[
+"dllehr-amd",
+2
+],
+[
+"AndreasKaratzas",
+1
+],
+[
+"LucasWilkinson",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+12
+],
+[
+"rebase/precommit",
+4
+],
+[
+"accuracy",
+2
+],
+[
+"flags",
+1
+],
+[
+"e2e perf",
+1
+],
+[
+"regression",
+1
+],
+[
+"blast radius",
+1
+]
+],
+"examples": [
+[
+52849,
+9,
+"merged"
+],
+[
+54805,
+31,
+"merged"
+]
+]
+},
+"pass_manager.py": {
+"n_prs": 4,
+"merged": 1,
+"closed": 3,
+"median_days_to_merge": 5,
+"median_comments": 15.5,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"tjtanaa",
+21
+],
+[
+"ProExpertProg",
+14
+],
+[
+"gshtras",
+2
+],
+[
+"Rohan138",
+2
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"reuse",
+10
+],
+[
+"platform guard",
+10
+],
+[
+"accuracy",
+8
+],
+[
+"blast radius",
+7
+],
+[
+"flags",
+6
+],
+[
+"tests",
+6
+],
+[
+"init not forward",
+5
+],
+[
+"e2e perf",
+4
+]
+],
+"examples": [
+[
+41825,
+5,
+"merged"
+]
+]
+},
+"quark_ocp_mx.py": {
+"n_prs": 4,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 9.5,
+"median_comments": 21.0,
+"median_rounds": 4.0,
+"reviewers": [
+[
+"fxmarty-amd",
+24
+],
+[
+"BowenBao",
+18
+],
+[
+"tjtanaa",
+11
+],
+[
+"ProExpertProg",
+8
+],
+[
+"AndreasKaratzas",
+6
+],
+[
+"JartX",
+3
+],
+[
+"shen-shanshan",
+1
+]
+],
+"themes": [
+[
+"flags",
+7
+],
+[
+"reuse",
+7
+],
+[
+"platform guard",
+3
+],
+[
+"accuracy",
+2
+],
+[
+"tests",
+2
+],
+[
+"blast radius",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"init not forward",
+1
+]
+],
+"examples": [
+[
+57071,
+11,
+"merged"
+],
+[
+48015,
+8,
+"merged"
+]
+]
+},
+"kv_cache_interface.py": {
+"n_prs": 4,
+"merged": 2,
+"closed": 2,
+"median_days_to_merge": 33.0,
+"median_comments": 55.0,
+"median_rounds": 7.5,
+"reviewers": [
+[
+"JartX",
+38
+],
+[
+"mgoin",
+21
+],
+[
+"simondanielsson",
+4
+],
+[
+"gshtras",
+2
+],
+[
+"LucasWilkinson",
+2
+],
+[
+"dllehr-amd",
+1
+],
+[
+"AndreasKaratzas",
+1
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+48
+],
+[
+"blast radius",
+17
+],
+[
+"accuracy",
+13
+],
+[
+"e2e perf",
+11
+],
+[
+"flags",
+9
+],
+[
+"regression",
+8
+],
+[
+"rebase/precommit",
+6
+],
+[
+"platform guard",
+5
+]
+],
+"examples": [
+[
+51705,
+21,
+"merged"
+],
+[
+51065,
+45,
+"merged"
+]
+]
+},
+"triton_reshape_and_cache_flash.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 9,
+"median_comments": 33.5,
+"median_rounds": 6.5,
+"reviewers": [
+[
+"JartX",
+25
+],
+[
+"mgoin",
+3
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+18
+],
+[
+"accuracy",
+9
+],
+[
+"blast radius",
+5
+],
+[
+"regression",
+5
+],
+[
+"flags",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"tests",
+1
+],
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+45361,
+9,
+"merged"
+]
+]
+},
+"base.py": {
+"n_prs": 7,
+"merged": 2,
+"closed": 4,
+"median_days_to_merge": 15.5,
+"median_comments": 8,
+"median_rounds": 2,
+"reviewers": [
+[
+"JartX",
+20
+],
+[
+"AndreasKaratzas",
+4
+],
+[
+"mgoin",
+3
+],
+[
+"tjtanaa",
+2
+]
+],
+"themes": [
+[
+"init not forward",
+24
+],
+[
+"accuracy",
+8
+],
+[
+"blast radius",
+7
+],
+[
+"regression",
+5
+],
+[
+"tests",
+3
+],
+[
+"e2e perf",
+3
+],
+[
+"platform guard",
+3
+],
+[
+"flags",
+2
+]
+],
+"examples": [
+[
+41577,
+20,
+"merged"
+],
+[
+42833,
+11,
+"merged"
+]
+]
+},
+"triton_unified_attention.py": {
+"n_prs": 4,
+"merged": 0,
+"closed": 3,
+"median_days_to_merge": null,
+"median_comments": 28.0,
+"median_rounds": 4.0,
+"reviewers": [
+[
+"JartX",
+38
+],
+[
+"mgoin",
+21
+],
+[
+"gshtras",
+2
+],
+[
+"LucasWilkinson",
+2
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+30
+],
+[
+"accuracy",
+10
+],
+[
+"blast radius",
+6
+],
+[
+"regression",
+5
+],
+[
+"e2e perf",
+4
+],
+[
+"flags",
+3
+],
+[
+"tests",
+2
+],
+[
+"platform guard",
+1
+]
+],
+"examples": []
+},
+"triton_attn.py": {
+"n_prs": 3,
+"merged": 0,
+"closed": 3,
+"median_days_to_merge": null,
+"median_comments": 53,
+"median_rounds": 7,
+"reviewers": [
+[
+"JartX",
+38
+],
+[
+"mgoin",
+21
+],
+[
+"gshtras",
+2
+],
+[
+"LucasWilkinson",
+2
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+30
+],
+[
+"accuracy",
+10
+],
+[
+"blast radius",
+6
+],
+[
+"regression",
+5
+],
+[
+"e2e perf",
+4
+],
+[
+"flags",
+3
+],
+[
+"tests",
+2
+],
+[
+"platform guard",
+1
+]
+],
+"examples": []
+},
+"test_rocm_mxfp4.py": {
+"n_prs": 3,
+"merged": 3,
+"closed": 0,
+"median_days_to_merge": 8,
+"median_comments": 9,
+"median_rounds": 1,
+"reviewers": [
+[
+"AndreasKaratzas",
+6
+],
+[
+"Rohan138",
+5
+],
+[
+"tjtanaa",
+4
+],
+[
+"fxmarty-amd",
+1
+]
+],
+"themes": [
+[
+"platform guard",
+4
+],
+[
+"aiter pin",
+2
+],
+[
+"e2e perf",
+1
+],
+[
+"comments cleanup",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+52826,
+16,
+"merged"
+],
+[
+55213,
+7,
+"merged"
+],
+[
+53141,
+8,
+"merged"
+]
+]
+},
+"sparse_attn_indexer.py": {
+"n_prs": 6,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 27.5,
+"median_comments": 8.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"tjtanaa",
+8
+],
+[
+"simondanielsson",
+3
+],
+[
+"dllehr-amd",
+1
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"accuracy",
+6
+],
+[
+"e2e perf",
+5
+],
+[
+"blast radius",
+5
+],
+[
+"tests",
+3
+],
+[
+"flags",
+2
+],
+[
+"aiter pin",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"init not forward",
+1
+]
+],
+"examples": [
+[
+44527,
+54,
+"merged"
+],
+[
+42810,
+1,
+"merged"
+]
+]
+},
+"indexer.py": {
+"n_prs": 5,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 2,
+"median_comments": 15,
+"median_rounds": 2,
+"reviewers": [
+[
+"simondanielsson",
+10
+],
+[
+"tjtanaa",
+6
+],
+[
+"LucasWilkinson",
+3
+]
+],
+"themes": [
+[
+"init not forward",
+7
+],
+[
+"accuracy",
+5
+],
+[
+"blast radius",
+5
+],
+[
+"e2e perf",
+4
+],
+[
+"rebase/precommit",
+3
+],
+[
+"tests",
+3
+],
+[
+"aiter pin",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+41217,
+2,
+"merged"
+]
+]
+},
+"utils.py": {
+"n_prs": 11,
+"merged": 3,
+"closed": 5,
+"median_days_to_merge": 22,
+"median_comments": 12,
+"median_rounds": 2,
+"reviewers": [
+[
+"AndreasKaratzas",
+33
+],
+[
+"LucasWilkinson",
+25
+],
+[
+"tjtanaa",
+21
+],
+[
+"simondanielsson",
+5
+],
+[
+"mawong-amd",
+3
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+12
+],
+[
+"e2e perf",
+9
+],
+[
+"blast radius",
+8
+],
+[
+"accuracy",
+5
+],
+[
+"platform guard",
+4
+],
+[
+"rebase/precommit",
+3
+],
+[
+"tests",
+2
+],
+[
+"flags",
+2
+]
+],
+"examples": [
+[
+43022,
+22,
+"merged"
+],
+[
+44455,
+38,
+"merged"
+],
+[
+40796,
+8,
+"merged"
+]
+]
+},
+"backend.py": {
+"n_prs": 4,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 21.5,
+"median_comments": 26.5,
+"median_rounds": 5.0,
+"reviewers": [
+[
+"JartX",
+18
+],
+[
+"mgoin",
+18
+],
+[
+"LucasWilkinson",
+13
+],
+[
+"AndreasKaratzas",
+6
+],
+[
+"tjtanaa",
+3
+],
+[
+"gshtras",
+2
+],
+[
+"dllehr-amd",
+2
+],
+[
+"simondanielsson",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+21
+],
+[
+"accuracy",
+6
+],
+[
+"e2e perf",
+5
+],
+[
+"tests",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"flags",
+2
+],
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+53175,
+35,
+"merged"
+],
+[
+54404,
+8,
+"merged"
+]
+]
+},
+"ops.h": {
+"n_prs": 6,
+"merged": 2,
+"closed": 4,
+"median_days_to_merge": 6.5,
+"median_comments": 19.5,
+"median_rounds": 3.0,
+"reviewers": [
+[
+"ProExpertProg",
+3
+]
+],
+"themes": [
+[
+"blast radius",
+3
+],
+[
+"reuse",
+2
+],
+[
+"rebase/precommit",
+2
+]
+],
+"examples": [
+[
+45415,
+7,
+"merged"
+],
+[
+42663,
+6,
+"merged"
+]
+]
+},
+"CMakeLists.txt": {
+"n_prs": 19,
+"merged": 5,
+"closed": 13,
+"median_days_to_merge": 6,
+"median_comments": 5,
+"median_rounds": 2,
+"reviewers": [
+[
+"tjtanaa",
+12
+],
+[
+"AndreasKaratzas",
+6
+],
+[
+"dllehr-amd",
+4
+],
+[
+"ProExpertProg",
+3
+]
+],
+"themes": [
+[
+"blast radius",
+10
+],
+[
+"rebase/precommit",
+6
+],
+[
+"flags",
+4
+],
+[
+"reuse",
+3
+],
+[
+"init not forward",
+3
+],
+[
+"e2e perf",
+3
+],
+[
+"accuracy",
+1
+],
+[
+"tests",
+1
+]
+],
+"examples": [
+[
+44565,
+7,
+"merged"
+],
+[
+45415,
+7,
+"merged"
+],
+[
+42663,
+6,
+"merged"
+],
+[
+45176,
+2,
+"merged"
+],
+[
+44674,
+2,
+"merged"
+]
+]
+},
+"torch_utils.h": {
+"n_prs": 3,
+"merged": 0,
+"closed": 3,
+"median_days_to_merge": null,
+"median_comments": 17,
+"median_rounds": 3,
+"reviewers": [
+[
+"ProExpertProg",
+3
+]
+],
+"themes": [
+[
+"blast radius",
+2
+],
+[
+"reuse",
+1
+]
+],
+"examples": []
+},
+"torch_bindings.cpp": {
+"n_prs": 7,
+"merged": 5,
+"closed": 2,
+"median_days_to_merge": 6,
+"median_comments": 22,
+"median_rounds": 2,
+"reviewers": [
+[
+"tjtanaa",
+6
+],
+[
+"ProExpertProg",
+3
+]
+],
+"themes": [
+[
+"blast radius",
+4
+],
+[
+"reuse",
+2
+],
+[
+"rebase/precommit",
+2
+]
+],
+"examples": [
+[
+44565,
+7,
+"merged"
+],
+[
+45415,
+7,
+"merged"
+],
+[
+42663,
+6,
+"merged"
+],
+[
+47128,
+2,
+"merged"
+],
+[
+44648,
+0,
+"merged"
+]
+]
+},
+"fused_deepseek_v4_qnorm_rope_kv_insert_kernel.cu": {
+"n_prs": 3,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 5.0,
+"median_comments": 3,
+"median_rounds": 1,
+"reviewers": [
+[
+"tjtanaa",
+12
+],
+[
+"zyongye",
+2
+]
+],
+"themes": [
+[
+"init not forward",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"platform guard",
+2
+],
+[
+"aiter pin",
+1
+]
+],
+"examples": [
+[
+45681,
+3,
+"merged"
+],
+[
+43162,
+7,
+"merged"
+]
+]
+},
+"mxfp4.py": {
+"n_prs": 17,
+"merged": 10,
+"closed": 4,
+"median_days_to_merge": 8.5,
+"median_comments": 10,
+"median_rounds": 3,
+"reviewers": [
+[
+"fxmarty-amd",
+43
+],
+[
+"BowenBao",
+35
+],
+[
+"tjtanaa",
+28
+],
+[
+"zyongye",
+12
+],
+[
+"AndreasKaratzas",
+10
+],
+[
+"mgoin",
+7
+],
+[
+"Rohan138",
+7
+],
+[
+"dllehr-amd",
+6
+]
+],
+"themes": [
+[
+"flags",
+10
+],
+[
+"platform guard",
+8
+],
+[
+"blast radius",
+8
+],
+[
+"init not forward",
+6
+],
+[
+"rebase/precommit",
+5
+],
+[
+"e2e perf",
+5
+],
+[
+"accuracy",
+4
+],
+[
+"aiter pin",
+3
+]
+],
+"examples": [
+[
+50000,
+3,
+"merged"
+],
+[
+40871,
+10,
+"merged"
+],
+[
+53940,
+21,
+"merged"
+],
+[
+42595,
+15,
+"merged"
+],
+[
+46516,
+38,
+"merged"
+]
+]
+},
+"moriio_connector.py": {
+"n_prs": 9,
+"merged": 5,
+"closed": 0,
+"median_days_to_merge": 3,
+"median_comments": 9,
+"median_rounds": 1,
+"reviewers": [
+[
+"simondanielsson",
+25
+],
+[
+"AndreasKaratzas",
+5
+],
+[
+"tjtanaa",
+4
+],
+[
+"hongxiayang",
+4
+],
+[
+"dllehr-amd",
+2
+]
+],
+"themes": [
+[
+"init not forward",
+3
+],
+[
+"tests",
+3
+],
+[
+"reuse",
+3
+],
+[
+"accuracy",
+2
+],
+[
+"e2e perf",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+47764,
+22,
+"merged"
+],
+[
+46039,
+3,
+"merged"
+],
+[
+53721,
+20,
+"merged"
+],
+[
+46290,
+2,
+"merged"
+],
+[
+53698,
+1,
+"merged"
+]
+]
+},
+"moe_wna16.cu": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 7,
+"median_comments": 31.5,
+"median_rounds": 2.5,
+"reviewers": [],
+"themes": [
+[
+"blast radius",
+2
+]
+],
+"examples": [
+[
+44565,
+7,
+"merged"
+]
+]
+},
+"skinny_gemms.cu": {
+"n_prs": 4,
+"merged": 0,
+"closed": 4,
+"median_days_to_merge": null,
+"median_comments": 5.5,
+"median_rounds": 0.0,
+"reviewers": [
+[
+"AndreasKaratzas",
+2
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"e2e perf",
+1
+]
+],
+"examples": []
+},
+"manager.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 7,
+"median_comments": 13.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"shen-shanshan",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+3
+]
+],
+"examples": [
+[
+53598,
+7,
+"merged"
+]
+]
+},
+"cuda_mem_ops.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 95,
+"median_comments": 8.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"hongxiayang",
+4
+]
+],
+"themes": [
+[
+"init not forward",
+2
+],
+[
+"e2e perf",
+1
+]
+],
+"examples": [
+[
+43018,
+95,
+"merged"
+]
+]
+},
+"_aiter_ops.py": {
+"n_prs": 24,
+"merged": 13,
+"closed": 9,
+"median_days_to_merge": 23,
+"median_comments": 6.5,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"tjtanaa",
+37
+],
+[
+"dllehr-amd",
+20
+],
+[
+"fxmarty-amd",
+18
+],
+[
+"AndreasKaratzas",
+15
+],
+[
+"simondanielsson",
+9
+],
+[
+"Fangzhou-Ai",
+9
+],
+[
+"Rohan138",
+7
+],
+[
+"shen-shanshan",
+4
+]
+],
+"themes": [
+[
+"init not forward",
+11
+],
+[
+"platform guard",
+11
+],
+[
+"blast radius",
+9
+],
+[
+"e2e perf",
+7
+],
+[
+"accuracy",
+7
+],
+[
+"reuse",
+6
+],
+[
+"rebase/precommit",
+4
+],
+[
+"flags",
+4
+]
+],
+"examples": [
+[
+47896,
+35,
+"merged"
+],
+[
+43615,
+70,
+"merged"
+],
+[
+46720,
+35,
+"merged"
+],
+[
+48249,
+69,
+"merged"
+],
+[
+42864,
+23,
+"merged"
+]
+]
+},
+"rocm_aiter_mla.py": {
+"n_prs": 18,
+"merged": 12,
+"closed": 4,
+"median_days_to_merge": 6.5,
+"median_comments": 11.5,
+"median_rounds": 1.5,
+"reviewers": [
+[
+"tjtanaa",
+19
+],
+[
+"simondanielsson",
+17
+],
+[
+"Rohan138",
+15
+],
+[
+"AndreasKaratzas",
+12
+],
+[
+"shen-shanshan",
+9
+],
+[
+"hongxiayang",
+9
+],
+[
+"dllehr-amd",
+3
+],
+[
+"ProExpertProg",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+22
+],
+[
+"blast radius",
+13
+],
+[
+"accuracy",
+10
+],
+[
+"rebase/precommit",
+9
+],
+[
+"e2e perf",
+8
+],
+[
+"platform guard",
+7
+],
+[
+"regression",
+7
+],
+[
+"flags",
+3
+]
+],
+"examples": [
+[
+51705,
+21,
+"merged"
+],
+[
+45227,
+50,
+"merged"
+],
+[
+51011,
+6,
+"merged"
+],
+[
+53664,
+15,
+"merged"
+],
+[
+51171,
+25,
+"merged"
+]
+]
+},
+"rocm_aiter_mla_sparse.py": {
+"n_prs": 36,
+"merged": 20,
+"closed": 8,
+"median_days_to_merge": 6.5,
+"median_comments": 7.0,
+"median_rounds": 1.5,
+"reviewers": [
+[
+"tjtanaa",
+88
+],
+[
+"AndreasKaratzas",
+31
+],
+[
+"dllehr-amd",
+19
+],
+[
+"Fangzhou-Ai",
+13
+],
+[
+"simondanielsson",
+13
+],
+[
+"zyongye",
+9
+],
+[
+"shen-shanshan",
+8
+],
+[
+"Rohan138",
+5
+]
+],
+"themes": [
+[
+"accuracy",
+21
+],
+[
+"init not forward",
+19
+],
+[
+"platform guard",
+18
+],
+[
+"blast radius",
+17
+],
+[
+"e2e perf",
+15
+],
+[
+"rebase/precommit",
+11
+],
+[
+"tests",
+6
+],
+[
+"aiter pin",
+5
+]
+],
+"examples": [
+[
+40871,
+10,
+"merged"
+],
+[
+45681,
+3,
+"merged"
+],
+[
+41002,
+39,
+"merged"
+],
+[
+50455,
+50,
+"merged"
+],
+[
+45149,
+29,
+"merged"
+]
+]
+},
+"matcher_utils.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 12.5,
+"median_comments": 23.0,
+"median_rounds": 3.5,
+"reviewers": [
+[
+"tjtanaa",
+8
+],
+[
+"Rohan138",
+7
+],
+[
+"ProExpertProg",
+6
+],
+[
+"dllehr-amd",
+2
+],
+[
+"gshtras",
+1
+]
+],
+"themes": [
+[
+"platform guard",
+10
+],
+[
+"blast radius",
+7
+],
+[
+"accuracy",
+6
+],
+[
+"e2e perf",
+5
+],
+[
+"reuse",
+5
+],
+[
+"init not forward",
+4
+],
+[
+"tests",
+4
+],
+[
+"rebase/precommit",
+3
+]
+],
+"examples": [
+[
+41825,
+5,
+"merged"
+],
+[
+42832,
+20,
+"merged"
+]
+]
+},
+"config.py": {
+"n_prs": 9,
+"merged": 6,
+"closed": 2,
+"median_days_to_merge": 3.5,
+"median_comments": 14,
+"median_rounds": 2,
+"reviewers": [
+[
+"tjtanaa",
+19
+],
+[
+"simondanielsson",
+9
+],
+[
+"BowenBao",
+7
+],
+[
+"fxmarty-amd",
+7
+],
+[
+"Rohan138",
+6
+],
+[
+"Fangzhou-Ai",
+6
+],
+[
+"mgoin",
+6
+],
+[
+"zyongye",
+4
+]
+],
+"themes": [
+[
+"flags",
+6
+],
+[
+"blast radius",
+4
+],
+[
+"rebase/precommit",
+4
+],
+[
+"aiter pin",
+4
+],
+[
+"init not forward",
+3
+],
+[
+"e2e perf",
+2
+],
+[
+"accuracy",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+50000,
+3,
+"merged"
+],
+[
+42832,
+20,
+"merged"
+],
+[
+46419,
+4,
+"merged"
+],
+[
+57289,
+0,
+"merged"
+],
+[
+58819,
+4,
+"merged"
+]
+]
+},
+"test_rope_kvcache_fusion.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 12.0,
+"median_comments": 10.5,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"Rohan138",
+7
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"tjtanaa",
+1
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+1
+],
+[
+"e2e perf",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"tests",
+1
+]
+],
+"examples": [
+[
+42832,
+20,
+"merged"
+],
+[
+44678,
+4,
+"merged"
+]
+]
+},
+"test_layernorm.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 11.0,
+"median_comments": 10.5,
+"median_rounds": 1.5,
+"reviewers": [
+[
+"AndreasKaratzas",
+7
+],
+[
+"tjtanaa",
+2
+],
+[
+"mgoin",
+2
+],
+[
+"ProExpertProg",
+1
+]
+],
+"themes": [
+[
+"platform guard",
+2
+],
+[
+"tests",
+1
+],
+[
+"e2e perf",
+1
+]
+],
+"examples": [
+[
+44109,
+17,
+"merged"
+],
+[
+49839,
+5,
+"merged"
+]
+]
+},
+"turboquant_attn.py": {
+"n_prs": 3,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 35,
+"median_comments": 25,
+"median_rounds": 2,
+"reviewers": [
+[
+"fxmarty-amd",
+18
+],
+[
+"dllehr-amd",
+10
+],
+[
+"simondanielsson",
+9
+],
+[
+"tjtanaa",
+7
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"BowenBao",
+2
+]
+],
+"themes": [
+[
+"init not forward",
+6
+],
+[
+"platform guard",
+3
+],
+[
+"flags",
+3
+],
+[
+"accuracy",
+2
+],
+[
+"tests",
+2
+],
+[
+"blast radius",
+2
+],
+[
+"rebase/precommit",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+47896,
+35,
+"merged"
+]
+]
+},
+"attention.py": {
+"n_prs": 9,
+"merged": 5,
+"closed": 2,
+"median_days_to_merge": 30,
+"median_comments": 10,
+"median_rounds": 1,
+"reviewers": [
+[
+"fxmarty-amd",
+27
+],
+[
+"AndreasKaratzas",
+19
+],
+[
+"JartX",
+18
+],
+[
+"mgoin",
+18
+],
+[
+"LucasWilkinson",
+10
+],
+[
+"simondanielsson",
+9
+],
+[
+"Fangzhou-Ai",
+7
+],
+[
+"shen-shanshan",
+4
+]
+],
+"themes": [
+[
+"init not forward",
+18
+],
+[
+"accuracy",
+12
+],
+[
+"blast radius",
+6
+],
+[
+"e2e perf",
+6
+],
+[
+"tests",
+6
+],
+[
+"rebase/precommit",
+3
+],
+[
+"reuse",
+3
+],
+[
+"flags",
+2
+]
+],
+"examples": [
+[
+47972,
+30,
+"merged"
+],
+[
+53175,
+35,
+"merged"
+],
+[
+50212,
+56,
+"merged"
+],
+[
+53540,
+3,
+"merged"
+],
+[
+43149,
+3,
+"merged"
+]
+]
+},
+"interface.py": {
+"n_prs": 2,
+"merged": 0,
+"closed": 0,
+"median_days_to_merge": null,
+"median_comments": 19.5,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"dllehr-amd",
+10
+],
+[
+"simondanielsson",
+9
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"BowenBao",
+2
+]
+],
+"themes": [
+[
+"tests",
+2
+],
+[
+"accuracy",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": []
+},
+"mla.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 16.5,
+"median_comments": 20,
+"median_rounds": 2,
+"reviewers": [
+[
+"Rohan138",
+9
+],
+[
+"dllehr-amd",
+2
+],
+[
+"simondanielsson",
+2
+],
+[
+"tjtanaa",
+1
+],
+[
+"shen-shanshan",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+11
+],
+[
+"blast radius",
+7
+],
+[
+"e2e perf",
+6
+],
+[
+"rebase/precommit",
+5
+],
+[
+"flags",
+3
+],
+[
+"regression",
+3
+],
+[
+"comments cleanup",
+2
+],
+[
+"platform guard",
+2
+]
+],
+"examples": [
+[
+51705,
+21,
+"merged"
+],
+[
+57640,
+12,
+"merged"
+]
+]
+},
+"base_worker.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 38,
+"median_comments": 12.0,
+"median_rounds": 3.5,
+"reviewers": [
+[
+"LucasWilkinson",
+6
+],
+[
+"AndreasKaratzas",
+2
+]
+],
+"themes": [
+[
+"e2e perf",
+3
+],
+[
+"blast radius",
+3
+],
+[
+"init not forward",
+2
+],
+[
+"accuracy",
+1
+]
+],
+"examples": [
+[
+44455,
+38,
+"merged"
+]
+]
+},
+"gate_linear.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 25.5,
+"median_comments": 11,
+"median_rounds": 3,
+"reviewers": [
+[
+"tjtanaa",
+5
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+4
+],
+[
+"platform guard",
+4
+],
+[
+"accuracy",
+1
+],
+[
+"tests",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+54048,
+3,
+"merged"
+],
+[
+52668,
+48,
+"merged"
+]
+]
+},
+"kv_cache_utils.py": {
+"n_prs": 6,
+"merged": 4,
+"closed": 2,
+"median_days_to_merge": 16.0,
+"median_comments": 36.0,
+"median_rounds": 5.0,
+"reviewers": [
+[
+"mgoin",
+19
+],
+[
+"JartX",
+18
+],
+[
+"shen-shanshan",
+4
+],
+[
+"dllehr-amd",
+3
+],
+[
+"gshtras",
+2
+],
+[
+"LucasWilkinson",
+2
+],
+[
+"AndreasKaratzas",
+1
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+64
+],
+[
+"blast radius",
+39
+],
+[
+"e2e perf",
+29
+],
+[
+"platform guard",
+22
+],
+[
+"accuracy",
+15
+],
+[
+"flags",
+12
+],
+[
+"rebase/precommit",
+12
+],
+[
+"reuse",
+7
+]
+],
+"examples": [
+[
+53906,
+8,
+"merged"
+],
+[
+51705,
+21,
+"merged"
+],
+[
+53664,
+15,
+"merged"
+],
+[
+52047,
+17,
+"merged"
+]
+]
+},
+"kimi_gdn_linear_attn.py": {
+"n_prs": 3,
+"merged": 3,
+"closed": 0,
+"median_days_to_merge": 15,
+"median_comments": 15,
+"median_rounds": 4,
+"reviewers": [
+[
+"tjtanaa",
+5
+],
+[
+"shen-shanshan",
+4
+],
+[
+"kliuae",
+2
+],
+[
+"Fangzhou-Ai",
+2
+]
+],
+"themes": [
+[
+"init not forward",
+11
+],
+[
+"e2e perf",
+8
+],
+[
+"blast radius",
+6
+],
+[
+"rebase/precommit",
+5
+],
+[
+"flags",
+4
+],
+[
+"platform guard",
+4
+],
+[
+"regression",
+3
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+51705,
+21,
+"merged"
+],
+[
+53664,
+15,
+"merged"
+],
+[
+50654,
+11,
+"merged"
+]
+]
+},
+"rocm_aiter_fused_moe.py": {
+"n_prs": 6,
+"merged": 2,
+"closed": 4,
+"median_days_to_merge": 1.5,
+"median_comments": 8.0,
+"median_rounds": 1.0,
+"reviewers": [
+[
+"Rohan138",
+4
+],
+[
+"BowenBao",
+4
+],
+[
+"tjtanaa",
+2
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"gshtras",
+1
+],
+[
+"zyongye",
+1
+]
+],
+"themes": [
+[
+"regression",
+4
+],
+[
+"rebase/precommit",
+3
+],
+[
+"tests",
+1
+],
+[
+"blast radius",
+1
+]
+],
+"examples": [
+[
+41713,
+2,
+"merged"
+],
+[
+41175,
+1,
+"merged"
+]
+]
+},
+"modular_kernel.py": {
+"n_prs": 5,
+"merged": 1,
+"closed": 3,
+"median_days_to_merge": 2,
+"median_comments": 11,
+"median_rounds": 2,
+"reviewers": [
+[
+"BowenBao",
+6
+],
+[
+"fxmarty-amd",
+4
+],
+[
+"Rohan138",
+2
+],
+[
+"tjtanaa",
+1
+],
+[
+"gshtras",
+1
+],
+[
+"zyongye",
+1
+]
+],
+"themes": [
+[
+"regression",
+3
+],
+[
+"rebase/precommit",
+3
+],
+[
+"init not forward",
+1
+],
+[
+"blast radius",
+1
+]
+],
+"examples": [
+[
+41713,
+2,
+"merged"
+]
+]
+},
+"sparse_indexer.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 12,
+"median_comments": 13.5,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"tests",
+2
+],
+[
+"accuracy",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"blast radius",
+2
+]
+],
+"examples": [
+[
+55358,
+12,
+"merged"
+]
+]
+},
+"model.py": {
+"n_prs": 14,
+"merged": 12,
+"closed": 1,
+"median_days_to_merge": 6.0,
+"median_comments": 14.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"tjtanaa",
+51
+],
+[
+"Fangzhou-Ai",
+30
+],
+[
+"fxmarty-amd",
+17
+],
+[
+"AndreasKaratzas",
+13
+],
+[
+"simondanielsson",
+9
+],
+[
+"dllehr-amd",
+8
+],
+[
+"BowenBao",
+6
+],
+[
+"hongxiayang",
+6
+]
+],
+"themes": [
+[
+"blast radius",
+8
+],
+[
+"accuracy",
+8
+],
+[
+"e2e perf",
+7
+],
+[
+"aiter pin",
+6
+],
+[
+"rebase/precommit",
+4
+],
+[
+"reuse",
+3
+],
+[
+"regression",
+2
+],
+[
+"init not forward",
+2
+]
+],
+"examples": [
+[
+46474,
+4,
+"merged"
+],
+[
+43950,
+33,
+"merged"
+],
+[
+48044,
+15,
+"merged"
+],
+[
+46545,
+3,
+"merged"
+],
+[
+46720,
+35,
+"merged"
+]
+]
+},
+"rocm_aiter_moe.py": {
+"n_prs": 4,
+"merged": 3,
+"closed": 1,
+"median_days_to_merge": 4,
+"median_comments": 26.0,
+"median_rounds": 4.0,
+"reviewers": [
+[
+"tjtanaa",
+23
+],
+[
+"fxmarty-amd",
+23
+],
+[
+"BowenBao",
+7
+],
+[
+"AndreasKaratzas",
+4
+],
+[
+"mgoin",
+4
+],
+[
+"zyongye",
+4
+],
+[
+"Fangzhou-Ai",
+3
+],
+[
+"hongxiayang",
+2
+]
+],
+"themes": [
+[
+"init not forward",
+9
+],
+[
+"flags",
+8
+],
+[
+"aiter pin",
+4
+],
+[
+"blast radius",
+4
+],
+[
+"platform guard",
+3
+],
+[
+"e2e perf",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"accuracy",
+1
+]
+],
+"examples": [
+[
+47896,
+35,
+"merged"
+],
+[
+50000,
+3,
+"merged"
+],
+[
+46419,
+4,
+"merged"
+]
+]
+},
+"serving.py": {
+"n_prs": 3,
+"merged": 1,
+"closed": 2,
+"median_days_to_merge": 6,
+"median_comments": 1,
+"median_rounds": 0,
+"reviewers": [
+[
+"AndreasKaratzas",
+6
+]
+],
+"themes": [],
+"examples": [
+[
+43016,
+6,
+"merged"
+]
+]
+},
+"test-amd.yaml": {
+"n_prs": 11,
+"merged": 9,
+"closed": 2,
+"median_days_to_merge": 4,
+"median_comments": 6,
+"median_rounds": 1,
+"reviewers": [
+[
+"AndreasKaratzas",
+31
+],
+[
+"tjtanaa",
+6
+],
+[
+"shen-shanshan",
+6
+],
+[
+"Fangzhou-Ai",
+6
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"tests",
+10
+],
+[
+"e2e perf",
+3
+],
+[
+"platform guard",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+45219,
+12,
+"merged"
+],
+[
+54845,
+2,
+"merged"
+],
+[
+52256,
+3,
+"merged"
+],
+[
+53623,
+26,
+"merged"
+],
+[
+47065,
+1,
+"merged"
+]
+]
+},
+"quark_moe.py": {
+"n_prs": 15,
+"merged": 8,
+"closed": 5,
+"median_days_to_merge": 21.0,
+"median_comments": 10,
+"median_rounds": 3,
+"reviewers": [
+[
+"fxmarty-amd",
+91
+],
+[
+"BowenBao",
+37
+],
+[
+"AndreasKaratzas",
+34
+],
+[
+"tjtanaa",
+8
+],
+[
+"Rohan138",
+6
+],
+[
+"mgoin",
+4
+],
+[
+"JartX",
+3
+]
+],
+"themes": [
+[
+"blast radius",
+10
+],
+[
+"accuracy",
+10
+],
+[
+"e2e perf",
+8
+],
+[
+"tests",
+8
+],
+[
+"reuse",
+5
+],
+[
+"platform guard",
+4
+],
+[
+"rebase/precommit",
+3
+],
+[
+"flags",
+2
+]
+],
+"examples": [
+[
+47972,
+30,
+"merged"
+],
+[
+46765,
+32,
+"merged"
+],
+[
+49347,
+17,
+"merged"
+],
+[
+52263,
+25,
+"merged"
+],
+[
+46142,
+4,
+"merged"
+]
+]
+},
+"compressed_tensors_moe_w4a4_mxfp4.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 3,
+"median_comments": 37.0,
+"median_rounds": 6.0,
+"reviewers": [
+[
+"fxmarty-amd",
+25
+],
+[
+"BowenBao",
+14
+],
+[
+"tjtanaa",
+9
+],
+[
+"mgoin",
+4
+],
+[
+"zyongye",
+4
+],
+[
+"JartX",
+3
+],
+[
+"hongxiayang",
+2
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"flags",
+6
+],
+[
+"init not forward",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"platform guard",
+2
+],
+[
+"reuse",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"rebase/precommit",
+1
+],
+[
+"aiter pin",
+1
+]
+],
+"examples": [
+[
+50000,
+3,
+"merged"
+]
+]
+},
+"rocm.py": {
+"n_prs": 30,
+"merged": 16,
+"closed": 7,
+"median_days_to_merge": 20.0,
+"median_comments": 7.5,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"fxmarty-amd",
+39
+],
+[
+"tjtanaa",
+33
+],
+[
+"JartX",
+27
+],
+[
+"dllehr-amd",
+27
+],
+[
+"AndreasKaratzas",
+14
+],
+[
+"shen-shanshan",
+14
+],
+[
+"BowenBao",
+12
+],
+[
+"simondanielsson",
+8
+]
+],
+"themes": [
+[
+"blast radius",
+24
+],
+[
+"init not forward",
+20
+],
+[
+"platform guard",
+19
+],
+[
+"e2e perf",
+16
+],
+[
+"flags",
+12
+],
+[
+"rebase/precommit",
+9
+],
+[
+"reuse",
+7
+],
+[
+"regression",
+5
+]
+],
+"examples": [
+[
+44565,
+7,
+"merged"
+],
+[
+51705,
+21,
+"merged"
+],
+[
+41394,
+29,
+"merged"
+],
+[
+47896,
+35,
+"merged"
+],
+[
+43615,
+70,
+"merged"
+]
+]
+},
+"index.html": {
+"n_prs": 2,
+"merged": 0,
+"closed": 2,
+"median_days_to_merge": null,
+"median_comments": 2.0,
+"median_rounds": 0.0,
+"reviewers": [],
+"themes": [],
+"examples": []
+},
+"network_utils.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 0,
+"median_comments": 3.5,
+"median_rounds": 0.5,
+"reviewers": [
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"e2e perf",
+1
+],
+[
+"init not forward",
+1
+],
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+51635,
+0,
+"merged"
+]
+]
+},
+"__init__.py": {
+"n_prs": 3,
+"merged": 3,
+"closed": 0,
+"median_days_to_merge": 35,
+"median_comments": 18,
+"median_rounds": 5,
+"reviewers": [
+[
+"fxmarty-amd",
+27
+],
+[
+"tjtanaa",
+9
+],
+[
+"Rohan138",
+5
+],
+[
+"dllehr-amd",
+1
+],
+[
+"Fangzhou-Ai",
+1
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+9
+],
+[
+"platform guard",
+4
+],
+[
+"flags",
+3
+],
+[
+"accuracy",
+2
+],
+[
+"aiter pin",
+2
+],
+[
+"blast radius",
+2
+]
+],
+"examples": [
+[
+47896,
+35,
+"merged"
+],
+[
+51159,
+8,
+"merged"
+],
+[
+51915,
+41,
+"merged"
+]
+]
+},
+"gpu_worker.py": {
+"n_prs": 9,
+"merged": 4,
+"closed": 4,
+"median_days_to_merge": 5.0,
+"median_comments": 4,
+"median_rounds": 1,
+"reviewers": [
+[
+"AndreasKaratzas",
+17
+],
+[
+"LucasWilkinson",
+4
+],
+[
+"Rohan138",
+4
+],
+[
+"shen-shanshan",
+3
+],
+[
+"tjtanaa",
+1
+],
+[
+"njhill",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+7
+],
+[
+"init not forward",
+3
+],
+[
+"platform guard",
+3
+],
+[
+"e2e perf",
+2
+],
+[
+"accuracy",
+1
+],
+[
+"aiter pin",
+1
+]
+],
+"examples": [
+[
+51171,
+25,
+"merged"
+],
+[
+50907,
+8,
+"merged"
+],
+[
+47912,
+1,
+"merged"
+],
+[
+48526,
+2,
+"merged"
+]
+]
+},
+"layernorm.py": {
+"n_prs": 5,
+"merged": 0,
+"closed": 5,
+"median_days_to_merge": null,
+"median_comments": 5,
+"median_rounds": 2,
+"reviewers": [
+[
+"ProExpertProg",
+6
+],
+[
+"tjtanaa",
+1
+],
+[
+"gshtras",
+1
+]
+],
+"themes": [
+[
+"e2e perf",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"tests",
+2
+],
+[
+"init not forward",
+2
+],
+[
+"accuracy",
+2
+],
+[
+"platform guard",
+1
+]
+],
+"examples": []
+},
+"test_rocm_aiter_unified_attn.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 1,
+"median_comments": 3.0,
+"median_rounds": 0.5,
+"reviewers": [
+[
+"tjtanaa",
+2
+],
+[
+"AndreasKaratzas",
+2
+]
+],
+"themes": [],
+"examples": [
+[
+44436,
+1,
+"merged"
+]
+]
+},
+"flash_attn.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 27.0,
+"median_comments": 22.5,
+"median_rounds": 6.0,
+"reviewers": [
+[
+"LucasWilkinson",
+10
+]
+],
+"themes": [
+[
+"init not forward",
+5
+],
+[
+"e2e perf",
+2
+],
+[
+"blast radius",
+1
+],
+[
+"flags",
+1
+]
+],
+"examples": [
+[
+53175,
+35,
+"merged"
+],
+[
+42095,
+19,
+"merged"
+]
+]
+},
+"fp8.py": {
+"n_prs": 3,
+"merged": 1,
+"closed": 2,
+"median_days_to_merge": 1,
+"median_comments": 17,
+"median_rounds": 4,
+"reviewers": [
+[
+"tjtanaa",
+8
+],
+[
+"hongxiayang",
+1
+],
+[
+"Rohan138",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+1
+],
+[
+"init not forward",
+1
+]
+],
+"examples": [
+[
+45854,
+1,
+"merged"
+]
+]
+},
+"compressed_tensors_moe.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 7,
+"median_comments": 23.0,
+"median_rounds": 5.5,
+"reviewers": [
+[
+"JartX",
+14
+],
+[
+"tjtanaa",
+7
+],
+[
+"BowenBao",
+3
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"e2e perf",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"accuracy",
+2
+],
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+44075,
+7,
+"merged"
+]
+]
+},
+"vllm_c.py": {
+"n_prs": 3,
+"merged": 1,
+"closed": 2,
+"median_days_to_merge": 20,
+"median_comments": 4,
+"median_rounds": 0,
+"reviewers": [
+[
+"AndreasKaratzas",
+4
+]
+],
+"themes": [
+[
+"blast radius",
+1
+]
+],
+"examples": [
+[
+41577,
+20,
+"merged"
+]
+]
+},
+"rotary_embedding.py": {
+"n_prs": 2,
+"merged": 0,
+"closed": 2,
+"median_days_to_merge": null,
+"median_comments": 3.0,
+"median_rounds": 0.0,
+"reviewers": [],
+"themes": [],
+"examples": []
+},
+"Dockerfile.rocm": {
+"n_prs": 8,
+"merged": 3,
+"closed": 5,
+"median_days_to_merge": 12,
+"median_comments": 3.0,
+"median_rounds": 0.5,
+"reviewers": [
+[
+"AndreasKaratzas",
+19
+],
+[
+"hongxiayang",
+14
+],
+[
+"tjtanaa",
+5
+]
+],
+"themes": [
+[
+"init not forward",
+12
+],
+[
+"blast radius",
+3
+],
+[
+"reuse",
+3
+],
+[
+"flags",
+2
+],
+[
+"tests",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+51208,
+12,
+"merged"
+],
+[
+49251,
+2,
+"merged"
+],
+[
+46527,
+20,
+"merged"
+]
+]
+},
+"envs.py": {
+"n_prs": 17,
+"merged": 12,
+"closed": 2,
+"median_days_to_merge": 28.0,
+"median_comments": 16,
+"median_rounds": 3,
+"reviewers": [
+[
+"tjtanaa",
+62
+],
+[
+"fxmarty-amd",
+32
+],
+[
+"simondanielsson",
+27
+],
+[
+"hongxiayang",
+17
+],
+[
+"dllehr-amd",
+15
+],
+[
+"AndreasKaratzas",
+12
+],
+[
+"Fangzhou-Ai",
+5
+],
+[
+"BowenBao",
+5
+]
+],
+"themes": [
+[
+"init not forward",
+17
+],
+[
+"flags",
+16
+],
+[
+"e2e perf",
+15
+],
+[
+"platform guard",
+14
+],
+[
+"accuracy",
+13
+],
+[
+"blast radius",
+10
+],
+[
+"rebase/precommit",
+7
+],
+[
+"aiter pin",
+5
+]
+],
+"examples": [
+[
+47896,
+35,
+"merged"
+],
+[
+50000,
+3,
+"merged"
+],
+[
+50578,
+6,
+"merged"
+],
+[
+48247,
+63,
+"merged"
+],
+[
+43615,
+70,
+"merged"
+]
+]
+},
+"conftest.py": {
+"n_prs": 5,
+"merged": 3,
+"closed": 2,
+"median_days_to_merge": 11,
+"median_comments": 5,
+"median_rounds": 1,
+"reviewers": [
+[
+"tjtanaa",
+12
+],
+[
+"AndreasKaratzas",
+9
+]
+],
+"themes": [
+[
+"e2e perf",
+4
+],
+[
+"tests",
+2
+],
+[
+"flags",
+1
+],
+[
+"aiter pin",
+1
+],
+[
+"blast radius",
+1
+],
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+46065,
+18,
+"merged"
+],
+[
+48841,
+11,
+"merged"
+],
+[
+51280,
+7,
+"merged"
+]
+]
+},
+"Dockerfile": {
+"n_prs": 6,
+"merged": 2,
+"closed": 4,
+"median_days_to_merge": 9.0,
+"median_comments": 3.0,
+"median_rounds": 0.5,
+"reviewers": [
+[
+"zyongye",
+8
+],
+[
+"tjtanaa",
+3
+],
+[
+"mgoin",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+40
+],
+[
+"blast radius",
+35
+],
+[
+"platform guard",
+22
+],
+[
+"e2e perf",
+21
+],
+[
+"accuracy",
+11
+],
+[
+"rebase/precommit",
+8
+],
+[
+"flags",
+8
+],
+[
+"reuse",
+5
+]
+],
+"examples": [
+[
+53906,
+8,
+"merged"
+],
+[
+40871,
+10,
+"merged"
+]
+]
+},
+"test_quark.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 16,
+"median_comments": 6.5,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"fxmarty-amd",
+4
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"Rohan138",
+1
+]
+],
+"themes": [
+[
+"reuse",
+1
+],
+[
+"platform guard",
+1
+],
+[
+"accuracy",
+1
+]
+],
+"examples": [
+[
+48050,
+16,
+"merged"
+]
+]
+},
+"triton_moe.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 37.0,
+"median_comments": 13,
+"median_rounds": 4,
+"reviewers": [
+[
+"fxmarty-amd",
+11
+],
+[
+"BowenBao",
+7
+],
+[
+"AndreasKaratzas",
+6
+]
+],
+"themes": [
+[
+"blast radius",
+2
+],
+[
+"tests",
+2
+],
+[
+"e2e perf",
+1
+],
+[
+"init not forward",
+1
+],
+[
+"regression",
+1
+],
+[
+"flags",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+46765,
+32,
+"merged"
+],
+[
+42120,
+42,
+"merged"
+]
+]
+},
+"mxfp8.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 6.0,
+"median_comments": 13.5,
+"median_rounds": 3.0,
+"reviewers": [
+[
+"fxmarty-amd",
+10
+],
+[
+"hongxiayang",
+6
+],
+[
+"tjtanaa",
+6
+],
+[
+"BowenBao",
+2
+],
+[
+"Rohan138",
+1
+]
+],
+"themes": [
+[
+"aiter pin",
+1
+],
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+46184,
+8,
+"merged"
+],
+[
+49747,
+4,
+"merged"
+]
+]
+},
+"aiter_mxfp8_moe.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 8,
+"median_comments": 11.5,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"dllehr-amd",
+7
+],
+[
+"hongxiayang",
+6
+],
+[
+"tjtanaa",
+4
+],
+[
+"fxmarty-amd",
+3
+],
+[
+"BowenBao",
+2
+]
+],
+"themes": [
+[
+"blast radius",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"aiter pin",
+1
+]
+],
+"examples": [
+[
+46184,
+8,
+"merged"
+]
+]
+},
+"cache.py": {
+"n_prs": 2,
+"merged": 0,
+"closed": 2,
+"median_days_to_merge": null,
+"median_comments": 30.5,
+"median_rounds": 3.5,
+"reviewers": [
+[
+"JartX",
+18
+],
+[
+"mgoin",
+18
+],
+[
+"gshtras",
+2
+],
+[
+"LucasWilkinson",
+2
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+12
+],
+[
+"accuracy",
+3
+],
+[
+"e2e perf",
+2
+],
+[
+"blast radius",
+1
+],
+[
+"tests",
+1
+],
+[
+"flags",
+1
+]
+],
+"examples": []
+},
+"deepseek_v2.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 1.5,
+"median_comments": 9.0,
+"median_rounds": 1.0,
+"reviewers": [
+[
+"tjtanaa",
+6
+],
+[
+"Rohan138",
+3
+],
+[
+"gshtras",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+2
+],
+[
+"rebase/precommit",
+1
+],
+[
+"init not forward",
+1
+],
+[
+"accuracy",
+1
+]
+],
+"examples": [
+[
+41217,
+2,
+"merged"
+],
+[
+41835,
+1,
+"merged"
+]
+]
+},
+"test_weight_transfer.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 1.0,
+"median_comments": 3.5,
+"median_rounds": 0.5,
+"reviewers": [
+[
+"mawong-amd",
+3
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"tjtanaa",
+2
+]
+],
+"themes": [],
+"examples": [
+[
+47222,
+1,
+"merged"
+],
+[
+47000,
+1,
+"merged"
+]
+]
+},
+"vllm.py": {
+"n_prs": 5,
+"merged": 2,
+"closed": 2,
+"median_days_to_merge": 11.0,
+"median_comments": 9,
+"median_rounds": 3,
+"reviewers": [
+[
+"AndreasKaratzas",
+10
+],
+[
+"Rohan138",
+4
+],
+[
+"LucasWilkinson",
+3
+],
+[
+"njhill",
+2
+],
+[
+"shen-shanshan",
+2
+],
+[
+"Fangzhou-Ai",
+1
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+3
+],
+[
+"flags",
+2
+],
+[
+"accuracy",
+2
+],
+[
+"aiter pin",
+2
+],
+[
+"e2e perf",
+1
+],
+[
+"blast radius",
+1
+],
+[
+"platform guard",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+55095,
+8,
+"merged"
+],
+[
+47992,
+14,
+"merged"
+]
+]
+},
+"test_rocm_triton_attn_dsv4.py": {
+"n_prs": 3,
+"merged": 3,
+"closed": 0,
+"median_days_to_merge": 5,
+"median_comments": 10,
+"median_rounds": 3,
+"reviewers": [
+[
+"Fangzhou-Ai",
+8
+],
+[
+"tjtanaa",
+7
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"zyongye",
+1
+]
+],
+"themes": [
+[
+"platform guard",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"e2e perf",
+1
+],
+[
+"tests",
+1
+],
+[
+"init not forward",
+1
+],
+[
+"accuracy",
+1
+]
+],
+"examples": [
+[
+58058,
+6,
+"merged"
+],
+[
+41812,
+5,
+"merged"
+],
+[
+57435,
+5,
+"merged"
+]
+]
+},
+"allreduce_rms_fusion.py": {
+"n_prs": 5,
+"merged": 3,
+"closed": 2,
+"median_days_to_merge": 9,
+"median_comments": 5,
+"median_rounds": 1,
+"reviewers": [
+[
+"tjtanaa",
+5
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"Rohan138",
+3
+],
+[
+"dllehr-amd",
+2
+]
+],
+"themes": [
+[
+"tests",
+3
+],
+[
+"reuse",
+1
+],
+[
+"accuracy",
+1
+],
+[
+"e2e perf",
+1
+]
+],
+"examples": [
+[
+42864,
+23,
+"merged"
+],
+[
+50802,
+3,
+"merged"
+],
+[
+43120,
+9,
+"merged"
+]
+]
+},
+"gemm_int4.cpp": {
+"n_prs": 2,
+"merged": 0,
+"closed": 2,
+"median_days_to_merge": null,
+"median_comments": 2.5,
+"median_rounds": 0.0,
+"reviewers": [],
+"themes": [],
+"examples": []
+},
+"quant_utils.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 14,
+"median_comments": 8.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"fxmarty-amd",
+6
+],
+[
+"BowenBao",
+4
+],
+[
+"mgoin",
+3
+],
+[
+"ProExpertProg",
+2
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [],
+"examples": [
+[
+48949,
+14,
+"merged"
+]
+]
+},
+"mla_attention.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 7,
+"median_comments": 4.0,
+"median_rounds": 1.0,
+"reviewers": [
+[
+"LucasWilkinson",
+3
+],
+[
+"hongxiayang",
+2
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+2
+]
+],
+"examples": [
+[
+46114,
+7,
+"merged"
+]
+]
+},
+"gpu_model_runner.py": {
+"n_prs": 11,
+"merged": 3,
+"closed": 7,
+"median_days_to_merge": 2,
+"median_comments": 14,
+"median_rounds": 3,
+"reviewers": [
+[
+"LucasWilkinson",
+21
+],
+[
+"mgoin",
+19
+],
+[
+"JartX",
+18
+],
+[
+"AndreasKaratzas",
+10
+],
+[
+"njhill",
+8
+],
+[
+"Rohan138",
+3
+],
+[
+"gshtras",
+2
+],
+[
+"zyongye",
+2
+]
+],
+"themes": [
+[
+"init not forward",
+24
+],
+[
+"blast radius",
+12
+],
+[
+"e2e perf",
+8
+],
+[
+"regression",
+8
+],
+[
+"rebase/precommit",
+6
+],
+[
+"reuse",
+5
+],
+[
+"accuracy",
+5
+],
+[
+"tests",
+4
+]
+],
+"examples": [
+[
+50907,
+8,
+"merged"
+],
+[
+48526,
+2,
+"merged"
+],
+[
+56214,
+1,
+"merged"
+]
+]
+},
+"Dockerfile.rocm_base": {
+"n_prs": 8,
+"merged": 6,
+"closed": 2,
+"median_days_to_merge": 13.0,
+"median_comments": 6.0,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"Rohan138",
+25
+],
+[
+"tjtanaa",
+16
+],
+[
+"AndreasKaratzas",
+15
+],
+[
+"Fangzhou-Ai",
+11
+],
+[
+"mawong-amd",
+5
+],
+[
+"gshtras",
+2
+],
+[
+"njhill",
+1
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+4
+],
+[
+"aiter pin",
+3
+],
+[
+"comments cleanup",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"blast radius",
+2
+],
+[
+"accuracy",
+1
+],
+[
+"flags",
+1
+]
+],
+"examples": [
+[
+49925,
+35,
+"merged"
+],
+[
+43950,
+33,
+"merged"
+],
+[
+55099,
+6,
+"merged"
+],
+[
+56073,
+20,
+"merged"
+],
+[
+53712,
+1,
+"merged"
+]
+]
+},
+"topk_topp_sampler.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 4.5,
+"median_comments": 6,
+"median_rounds": 3,
+"reviewers": [
+[
+"tjtanaa",
+7
+],
+[
+"dllehr-amd",
+3
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"Rohan138",
+1
+]
+],
+"themes": [
+[
+"accuracy",
+5
+],
+[
+"init not forward",
+3
+],
+[
+"flags",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"platform guard",
+1
+],
+[
+"regression",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"aiter pin",
+1
+]
+],
+"examples": [
+[
+43331,
+7,
+"merged"
+],
+[
+44823,
+2,
+"merged"
+]
+]
+},
+"unquantized.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 41.0,
+"median_comments": 19.5,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"tjtanaa",
+12
+],
+[
+"AndreasKaratzas",
+5
+],
+[
+"simondanielsson",
+2
+]
+],
+"themes": [
+[
+"flags",
+4
+],
+[
+"rebase/precommit",
+2
+],
+[
+"init not forward",
+1
+],
+[
+"blast radius",
+1
+],
+[
+"tests",
+1
+]
+],
+"examples": [
+[
+46009,
+77,
+"merged"
+],
+[
+56590,
+5,
+"merged"
+]
+]
+},
+"xpu.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 34,
+"median_comments": 21.0,
+"median_rounds": 3.5,
+"reviewers": [
+[
+"dllehr-amd",
+10
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"BowenBao",
+2
+]
+],
+"themes": [
+[
+"rebase/precommit",
+2
+],
+[
+"tests",
+2
+],
+[
+"blast radius",
+1
+],
+[
+"accuracy",
+1
+],
+[
+"e2e perf",
+1
+]
+],
+"examples": [
+[
+42727,
+34,
+"merged"
+]
+]
+},
+"test_gpt_oss.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 4,
+"median_comments": 12.0,
+"median_rounds": 3.0,
+"reviewers": [
+[
+"fxmarty-amd",
+7
+],
+[
+"BowenBao",
+4
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"mgoin",
+1
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+46142,
+4,
+"merged"
+]
+]
+},
+"cuda.py": {
+"n_prs": 3,
+"merged": 3,
+"closed": 0,
+"median_days_to_merge": 7,
+"median_comments": 34,
+"median_rounds": 5,
+"reviewers": [
+[
+"tjtanaa",
+9
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+3
+],
+[
+"rebase/precommit",
+2
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+44565,
+7,
+"merged"
+],
+[
+45415,
+7,
+"merged"
+],
+[
+43679,
+2,
+"merged"
+]
+]
+},
+"_tilelang_ops.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 4.0,
+"median_comments": 9.5,
+"median_rounds": 1.5,
+"reviewers": [
+[
+"tjtanaa",
+13
+],
+[
+"AndreasKaratzas",
+1
+],
+[
+"zyongye",
+1
+]
+],
+"themes": [
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+43679,
+2,
+"merged"
+],
+[
+41946,
+6,
+"merged"
+]
+]
+},
+"rocm.txt": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 18.5,
+"median_comments": 36.0,
+"median_rounds": 6.0,
+"reviewers": [
+[
+"Rohan138",
+15
+],
+[
+"AndreasKaratzas",
+12
+],
+[
+"tjtanaa",
+11
+],
+[
+"njhill",
+1
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"regression",
+1
+],
+[
+"aiter pin",
+1
+],
+[
+"init not forward",
+1
+],
+[
+"comments cleanup",
+1
+]
+],
+"examples": [
+[
+49925,
+35,
+"merged"
+],
+[
+43679,
+2,
+"merged"
+]
+]
+},
+"compressor.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 5.5,
+"median_comments": 4,
+"median_rounds": 1,
+"reviewers": [
+[
+"tjtanaa",
+11
+],
+[
+"kliuae",
+2
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+43679,
+2,
+"merged"
+],
+[
+47718,
+9,
+"merged"
+]
+]
+},
+"cuda_communicator.py": {
+"n_prs": 3,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 63,
+"median_comments": 14,
+"median_rounds": 5,
+"reviewers": [
+[
+"tjtanaa",
+16
+],
+[
+"simondanielsson",
+15
+],
+[
+"Rohan138",
+4
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"gshtras",
+1
+],
+[
+"ProExpertProg",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+3
+],
+[
+"platform guard",
+2
+],
+[
+"rebase/precommit",
+2
+],
+[
+"e2e perf",
+1
+],
+[
+"tests",
+1
+],
+[
+"init not forward",
+1
+],
+[
+"flags",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+48247,
+63,
+"merged"
+]
+]
+},
+"kpool_compress.py": {
+"n_prs": 2,
+"merged": 0,
+"closed": 0,
+"median_days_to_merge": null,
+"median_comments": 5.5,
+"median_rounds": 1.0,
+"reviewers": [
+[
+"simondanielsson",
+7
+]
+],
+"themes": [
+[
+"blast radius",
+2
+],
+[
+"tests",
+1
+]
+],
+"examples": []
+},
+"moriio_engine.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 17,
+"median_comments": 13.5,
+"median_rounds": 1.5,
+"reviewers": [
+[
+"simondanielsson",
+9
+],
+[
+"hongxiayang",
+2
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"reuse",
+2
+]
+],
+"examples": [
+[
+41753,
+17,
+"merged"
+]
+]
+},
+"model_runner.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 8,
+"median_comments": 12.0,
+"median_rounds": 4.5,
+"reviewers": [
+[
+"AndreasKaratzas",
+3
+],
+[
+"LucasWilkinson",
+3
+],
+[
+"Fangzhou-Ai",
+1
+],
+[
+"Rohan138",
+1
+],
+[
+"njhill",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+6
+],
+[
+"platform guard",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"tests",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"accuracy",
+1
+],
+[
+"reuse",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+55095,
+8,
+"merged"
+]
+]
+},
+"scheduler.py": {
+"n_prs": 3,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 7,
+"median_comments": 15,
+"median_rounds": 3,
+"reviewers": [
+[
+"shen-shanshan",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+8
+],
+[
+"platform guard",
+2
+],
+[
+"tests",
+2
+],
+[
+"blast radius",
+1
+],
+[
+"accuracy",
+1
+],
+[
+"e2e perf",
+1
+],
+[
+"reuse",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+53598,
+7,
+"merged"
+]
+]
+},
+"sparse_attn.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 29.0,
+"median_comments": 8,
+"median_rounds": 2,
+"reviewers": [
+[
+"dllehr-amd",
+6
+],
+[
+"Rohan138",
+6
+],
+[
+"hongxiayang",
+4
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"tjtanaa",
+1
+],
+[
+"Fangzhou-Ai",
+1
+]
+],
+"themes": [
+[
+"platform guard",
+3
+],
+[
+"blast radius",
+2
+],
+[
+"accuracy",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"init not forward",
+2
+],
+[
+"regression",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+50605,
+56,
+"merged"
+],
+[
+46546,
+2,
+"merged"
+]
+]
+},
+"test_rocm_glm5next_sparse.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 9,
+"median_comments": 6.5,
+"median_rounds": 1.0,
+"reviewers": [
+[
+"simondanielsson",
+8
+],
+[
+"dllehr-amd",
+3
+],
+[
+"AndreasKaratzas",
+2
+]
+],
+"themes": [],
+"examples": [
+[
+58008,
+9,
+"merged"
+]
+]
+},
+"core.py": {
+"n_prs": 2,
+"merged": 0,
+"closed": 1,
+"median_days_to_merge": null,
+"median_comments": 5.5,
+"median_rounds": 1.5,
+"reviewers": [],
+"themes": [
+[
+"blast radius",
+2
+],
+[
+"reuse",
+1
+]
+],
+"examples": []
+},
+"Dockerfile.rock": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 22.0,
+"median_comments": 35.0,
+"median_rounds": 6.5,
+"reviewers": [
+[
+"Rohan138",
+21
+],
+[
+"AndreasKaratzas",
+13
+],
+[
+"tjtanaa",
+2
+],
+[
+"njhill",
+1
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"aiter pin",
+1
+],
+[
+"init not forward",
+1
+],
+[
+"comments cleanup",
+1
+]
+],
+"examples": [
+[
+49925,
+35,
+"merged"
+],
+[
+55934,
+9,
+"merged"
+]
+]
+},
+"flashinfer.py": {
+"n_prs": 4,
+"merged": 1,
+"closed": 2,
+"median_days_to_merge": 38,
+"median_comments": 22.5,
+"median_rounds": 6.5,
+"reviewers": [
+[
+"LucasWilkinson",
+7
+],
+[
+"mgoin",
+3
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"ProExpertProg",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+5
+],
+[
+"e2e perf",
+3
+],
+[
+"blast radius",
+3
+],
+[
+"rebase/precommit",
+1
+],
+[
+"accuracy",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+44455,
+38,
+"merged"
+]
+]
+},
+"aiter_mxfp4_w4a16_moe.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 16.0,
+"median_comments": 10.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"Rohan138",
+8
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"BowenBao",
+2
+],
+[
+"fxmarty-amd",
+1
+],
+[
+"tjtanaa",
+1
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"platform guard",
+3
+],
+[
+"accuracy",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"init not forward",
+2
+],
+[
+"regression",
+1
+],
+[
+"flags",
+1
+],
+[
+"aiter pin",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+50622,
+32,
+"merged"
+],
+[
+57866,
+0,
+"merged"
+]
+]
+},
+"test_ocp_mx_moe.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 41.0,
+"median_comments": 10,
+"median_rounds": 3,
+"reviewers": [
+[
+"Rohan138",
+6
+],
+[
+"fxmarty-amd",
+3
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"mawong-amd",
+2
+],
+[
+"BowenBao",
+2
+],
+[
+"tjtanaa",
+2
+]
+],
+"themes": [
+[
+"platform guard",
+3
+],
+[
+"accuracy",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"init not forward",
+2
+],
+[
+"regression",
+1
+],
+[
+"flags",
+1
+],
+[
+"aiter pin",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+50622,
+32,
+"merged"
+],
+[
+43979,
+50,
+"merged"
+]
+]
+},
+"README.md": {
+"n_prs": 4,
+"merged": 1,
+"closed": 2,
+"median_days_to_merge": 35,
+"median_comments": 24.5,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"fxmarty-amd",
+18
+],
+[
+"tjtanaa",
+7
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"shen-shanshan",
+2
+]
+],
+"themes": [
+[
+"init not forward",
+6
+],
+[
+"flags",
+5
+],
+[
+"accuracy",
+3
+],
+[
+"platform guard",
+3
+],
+[
+"blast radius",
+2
+]
+],
+"examples": [
+[
+47896,
+35,
+"merged"
+]
+]
+},
+"aiter_flash_attn.py": {
+"n_prs": 2,
+"merged": 0,
+"closed": 0,
+"median_days_to_merge": null,
+"median_comments": 6.0,
+"median_rounds": 1.5,
+"reviewers": [
+[
+"simondanielsson",
+3
+]
+],
+"themes": [
+[
+"accuracy",
+1
+],
+[
+"e2e perf",
+1
+]
+],
+"examples": []
+},
+"rocm_native.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 37.5,
+"median_comments": 10.5,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"Rohan138",
+6
+],
+[
+"hongxiayang",
+4
+],
+[
+"tjtanaa",
+2
+],
+[
+"AndreasKaratzas",
+2
+],
+[
+"fxmarty-amd",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+2
+],
+[
+"rebase/precommit",
+2
+],
+[
+"reuse",
+1
+],
+[
+"flags",
+1
+]
+],
+"examples": [
+[
+46117,
+19,
+"merged"
+],
+[
+50605,
+56,
+"merged"
+]
+]
+},
+"cumem_allocator.cpp": {
+"n_prs": 4,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 22,
+"median_comments": 3.5,
+"median_rounds": 1.0,
+"reviewers": [
+[
+"AndreasKaratzas",
+29
+],
+[
+"tjtanaa",
+12
+],
+[
+"mawong-amd",
+3
+],
+[
+"ProExpertProg",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+5
+],
+[
+"platform guard",
+3
+],
+[
+"e2e perf",
+1
+],
+[
+"init not forward",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"tests",
+1
+]
+],
+"examples": [
+[
+43022,
+22,
+"merged"
+]
+]
+},
+"worker.py": {
+"n_prs": 3,
+"merged": 3,
+"closed": 0,
+"median_days_to_merge": 10,
+"median_comments": 20,
+"median_rounds": 6,
+"reviewers": [
+[
+"LucasWilkinson",
+6
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"mgoin",
+1
+],
+[
+"njhill",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+40
+],
+[
+"blast radius",
+34
+],
+[
+"e2e perf",
+24
+],
+[
+"platform guard",
+20
+],
+[
+"accuracy",
+12
+],
+[
+"flags",
+7
+],
+[
+"rebase/precommit",
+6
+],
+[
+"reuse",
+5
+]
+],
+"examples": [
+[
+53906,
+8,
+"merged"
+],
+[
+44455,
+38,
+"merged"
+],
+[
+41313,
+10,
+"merged"
+]
+]
+},
+"rocm_attn.py": {
+"n_prs": 4,
+"merged": 2,
+"closed": 2,
+"median_days_to_merge": 20.5,
+"median_comments": 10.5,
+"median_rounds": 3.5,
+"reviewers": [
+[
+"LucasWilkinson",
+6
+],
+[
+"AndreasKaratzas",
+5
+],
+[
+"Rohan138",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+5
+],
+[
+"e2e perf",
+3
+],
+[
+"blast radius",
+3
+],
+[
+"accuracy",
+1
+],
+[
+"rebase/precommit",
+1
+],
+[
+"comments cleanup",
+1
+]
+],
+"examples": [
+[
+44455,
+38,
+"merged"
+],
+[
+46148,
+3,
+"merged"
+]
+]
+},
+"test_rocm_aiter_mla_fp8_prefill.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 12.0,
+"median_comments": 9.5,
+"median_rounds": 3.0,
+"reviewers": [
+[
+"AndreasKaratzas",
+5
+],
+[
+"hongxiayang",
+3
+],
+[
+"shen-shanshan",
+2
+],
+[
+"Rohan138",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+2
+],
+[
+"tests",
+1
+],
+[
+"regression",
+1
+],
+[
+"accuracy",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+51040,
+22,
+"merged"
+],
+[
+51457,
+2,
+"merged"
+]
+]
+},
+"rocm_aiter_fusion.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 3.5,
+"median_comments": 19.5,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"tjtanaa",
+14
+],
+[
+"ProExpertProg",
+6
+],
+[
+"Rohan138",
+2
+],
+[
+"zyongye",
+2
+],
+[
+"gshtras",
+1
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"platform guard",
+10
+],
+[
+"blast radius",
+7
+],
+[
+"accuracy",
+6
+],
+[
+"reuse",
+5
+],
+[
+"init not forward",
+5
+],
+[
+"e2e perf",
+4
+],
+[
+"tests",
+4
+],
+[
+"rebase/precommit",
+2
+]
+],
+"examples": [
+[
+41825,
+5,
+"merged"
+],
+[
+43385,
+2,
+"merged"
+]
+]
+},
+"triton_mla.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 33.0,
+"median_comments": 36.0,
+"median_rounds": 7.0,
+"reviewers": [
+[
+"simondanielsson",
+4
+],
+[
+"dllehr-amd",
+1
+],
+[
+"tjtanaa",
+1
+],
+[
+"shen-shanshan",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+18
+],
+[
+"blast radius",
+11
+],
+[
+"e2e perf",
+7
+],
+[
+"rebase/precommit",
+6
+],
+[
+"flags",
+6
+],
+[
+"platform guard",
+4
+],
+[
+"accuracy",
+3
+],
+[
+"regression",
+3
+]
+],
+"examples": [
+[
+51705,
+21,
+"merged"
+],
+[
+51065,
+45,
+"merged"
+]
+]
+},
+"quark.py": {
+"n_prs": 4,
+"merged": 3,
+"closed": 1,
+"median_days_to_merge": 21,
+"median_comments": 12.5,
+"median_rounds": 3.5,
+"reviewers": [
+[
+"fxmarty-amd",
+30
+],
+[
+"AndreasKaratzas",
+18
+],
+[
+"BowenBao",
+12
+],
+[
+"tjtanaa",
+3
+],
+[
+"shen-shanshan",
+1
+]
+],
+"themes": [
+[
+"accuracy",
+9
+],
+[
+"tests",
+5
+],
+[
+"e2e perf",
+4
+],
+[
+"init not forward",
+3
+],
+[
+"rebase/precommit",
+3
+],
+[
+"blast radius",
+3
+],
+[
+"platform guard",
+2
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+47972,
+30,
+"merged"
+],
+[
+57071,
+11,
+"merged"
+],
+[
+46757,
+21,
+"merged"
+]
+]
+},
+"deepseek_v4_attention.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 10,
+"median_comments": 13.0,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"zyongye",
+8
+],
+[
+"tjtanaa",
+3
+]
+],
+"themes": [
+[
+"blast radius",
+4
+],
+[
+"init not forward",
+2
+],
+[
+"platform guard",
+2
+],
+[
+"flags",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+40871,
+10,
+"merged"
+]
+]
+},
+"gpt_oss_triton_kernels_moe.py": {
+"n_prs": 6,
+"merged": 3,
+"closed": 3,
+"median_days_to_merge": 2,
+"median_comments": 7.0,
+"median_rounds": 1.0,
+"reviewers": [
+[
+"tjtanaa",
+16
+],
+[
+"zyongye",
+10
+]
+],
+"themes": [
+[
+"blast radius",
+6
+],
+[
+"accuracy",
+4
+],
+[
+"init not forward",
+3
+],
+[
+"platform guard",
+2
+],
+[
+"regression",
+1
+],
+[
+"flags",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+40871,
+10,
+"merged"
+],
+[
+43385,
+2,
+"merged"
+],
+[
+42604,
+1,
+"merged"
+]
+]
+},
+"deepseek_v4.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 8.0,
+"median_comments": 7,
+"median_rounds": 1,
+"reviewers": [
+[
+"zyongye",
+9
+],
+[
+"tjtanaa",
+7
+]
+],
+"themes": [
+[
+"blast radius",
+4
+],
+[
+"init not forward",
+2
+],
+[
+"platform guard",
+2
+],
+[
+"flags",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+40871,
+10,
+"merged"
+],
+[
+41946,
+6,
+"merged"
+]
+]
+},
+"deepseek_compressor.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 10,
+"median_comments": 13.0,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"zyongye",
+8
+],
+[
+"tjtanaa",
+3
+]
+],
+"themes": [
+[
+"blast radius",
+4
+],
+[
+"init not forward",
+2
+],
+[
+"platform guard",
+2
+],
+[
+"flags",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+40871,
+10,
+"merged"
+]
+]
+},
+"aiter_custom_all_reduce.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 12.5,
+"median_comments": 16.5,
+"median_rounds": 4.5,
+"reviewers": [
+[
+"tjtanaa",
+9
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"Fangzhou-Ai",
+3
+],
+[
+"shen-shanshan",
+3
+]
+],
+"themes": [
+[
+"e2e perf",
+4
+],
+[
+"tests",
+2
+],
+[
+"flags",
+1
+],
+[
+"aiter pin",
+1
+],
+[
+"blast radius",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+46065,
+18,
+"merged"
+],
+[
+54787,
+7,
+"merged"
+]
+]
+},
+"moe_align_sum_kernels.cu": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 7.5,
+"median_comments": 38.0,
+"median_rounds": 3.5,
+"reviewers": [
+[
+"AndreasKaratzas",
+8
+]
+],
+"themes": [
+[
+"blast radius",
+2
+]
+],
+"examples": [
+[
+44565,
+7,
+"merged"
+],
+[
+50907,
+8,
+"merged"
+]
+]
+},
+"_custom_ops.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 7,
+"median_comments": 32.5,
+"median_rounds": 3.0,
+"reviewers": [],
+"themes": [
+[
+"blast radius",
+2
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+44565,
+7,
+"merged"
+]
+]
+},
+".pre-commit-config.yaml": {
+"n_prs": 2,
+"merged": 0,
+"closed": 2,
+"median_days_to_merge": null,
+"median_comments": 4.5,
+"median_rounds": 1.0,
+"reviewers": [],
+"themes": [],
+"examples": []
+},
+"gemma4_mm.py": {
+"n_prs": 2,
+"merged": 0,
+"closed": 2,
+"median_days_to_merge": null,
+"median_comments": 1.0,
+"median_rounds": 0.0,
+"reviewers": [],
+"themes": [],
+"examples": []
+},
+"quark_w8a8_fp8.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 17.0,
+"median_comments": 14,
+"median_rounds": 5,
+"reviewers": [
+[
+"fxmarty-amd",
+33
+],
+[
+"AndreasKaratzas",
+18
+],
+[
+"tjtanaa",
+2
+],
+[
+"BowenBao",
+1
+]
+],
+"themes": [
+[
+"accuracy",
+10
+],
+[
+"e2e perf",
+5
+],
+[
+"tests",
+5
+],
+[
+"blast radius",
+3
+],
+[
+"init not forward",
+2
+],
+[
+"rebase/precommit",
+2
+],
+[
+"platform guard",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+47972,
+30,
+"merged"
+],
+[
+54770,
+4,
+"merged"
+]
+]
+},
+"fp8_utils.py": {
+"n_prs": 3,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 7.0,
+"median_comments": 14,
+"median_rounds": 3,
+"reviewers": [
+[
+"zyongye",
+8
+],
+[
+"fxmarty-amd",
+6
+],
+[
+"dllehr-amd",
+4
+],
+[
+"tjtanaa",
+3
+]
+],
+"themes": [
+[
+"platform guard",
+5
+],
+[
+"blast radius",
+4
+],
+[
+"init not forward",
+3
+],
+[
+"accuracy",
+2
+],
+[
+"e2e perf",
+1
+],
+[
+"reuse",
+1
+],
+[
+"flags",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+40871,
+10,
+"merged"
+],
+[
+54770,
+4,
+"merged"
+]
+]
+},
+"setup.py": {
+"n_prs": 4,
+"merged": 1,
+"closed": 3,
+"median_days_to_merge": 24,
+"median_comments": 6.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"tjtanaa",
+1
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"blast radius",
+1
+],
+[
+"accuracy",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+49365,
+24,
+"merged"
+]
+]
+},
+"mhc.py": {
+"n_prs": 4,
+"merged": 3,
+"closed": 1,
+"median_days_to_merge": 1,
+"median_comments": 7.0,
+"median_rounds": 1.0,
+"reviewers": [
+[
+"tjtanaa",
+22
+],
+[
+"Fangzhou-Ai",
+8
+],
+[
+"AndreasKaratzas",
+1
+]
+],
+"themes": [
+[
+"accuracy",
+4
+],
+[
+"aiter pin",
+2
+],
+[
+"init not forward",
+2
+],
+[
+"e2e perf",
+1
+],
+[
+"blast radius",
+1
+],
+[
+"flags",
+1
+],
+[
+"comments cleanup",
+1
+]
+],
+"examples": [
+[
+43950,
+33,
+"merged"
+],
+[
+42604,
+1,
+"merged"
+],
+[
+42810,
+1,
+"merged"
+]
+]
+},
+"base.h": {
+"n_prs": 4,
+"merged": 0,
+"closed": 4,
+"median_days_to_merge": null,
+"median_comments": 1.0,
+"median_rounds": 0.0,
+"reviewers": [],
+"themes": [],
+"examples": []
+},
+"speculative.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 8,
+"median_comments": 28.0,
+"median_rounds": 3.0,
+"reviewers": [
+[
+"dllehr-amd",
+2
+],
+[
+"shen-shanshan",
+2
+]
+],
+"themes": [
+[
+"flags",
+2
+],
+[
+"accuracy",
+2
+]
+],
+"examples": [
+[
+47419,
+8,
+"merged"
+]
+]
+},
+"layernorm_quant_kernels.cu": {
+"n_prs": 3,
+"merged": 0,
+"closed": 3,
+"median_days_to_merge": null,
+"median_comments": 2,
+"median_rounds": 1,
+"reviewers": [],
+"themes": [],
+"examples": []
+},
+"run-amd-test.sh": {
+"n_prs": 3,
+"merged": 0,
+"closed": 3,
+"median_days_to_merge": null,
+"median_comments": 6,
+"median_rounds": 0,
+"reviewers": [
+[
+"AndreasKaratzas",
+11
+],
+[
+"gshtras",
+1
+]
+],
+"themes": [],
+"examples": []
+},
+"release-pipeline.yaml": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 7.0,
+"median_comments": 22.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"hongxiayang",
+14
+],
+[
+"AndreasKaratzas",
+13
+],
+[
+"Rohan138",
+3
+],
+[
+"dllehr-amd",
+1
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+12
+],
+[
+"blast radius",
+3
+],
+[
+"reuse",
+3
+],
+[
+"flags",
+2
+],
+[
+"tests",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+51208,
+12,
+"merged"
+],
+[
+55014,
+2,
+"merged"
+]
+]
+},
+"shared_experts.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 9.5,
+"median_comments": 10.0,
+"median_rounds": 2.5,
+"reviewers": [
+[
+"simondanielsson",
+11
+],
+[
+"mawong-amd",
+5
+],
+[
+"Fangzhou-Ai",
+2
+],
+[
+"shen-shanshan",
+2
+]
+],
+"themes": [
+[
+"regression",
+1
+],
+[
+"blast radius",
+1
+],
+[
+"accuracy",
+1
+],
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+52033,
+18,
+"merged"
+],
+[
+56098,
+1,
+"merged"
+]
+]
+},
+"kv_cache_coordinator.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 14.0,
+"median_comments": 37.5,
+"median_rounds": 5.5,
+"reviewers": [
+[
+"shen-shanshan",
+2
+],
+[
+"tjtanaa",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+13
+],
+[
+"e2e perf",
+6
+],
+[
+"blast radius",
+6
+],
+[
+"rebase/precommit",
+5
+],
+[
+"flags",
+3
+],
+[
+"regression",
+3
+],
+[
+"platform guard",
+2
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+51705,
+21,
+"merged"
+],
+[
+53598,
+7,
+"merged"
+]
+]
+},
+"triton_fp8_mqa_logits.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 3,
+"median_comments": 29.0,
+"median_rounds": 5.0,
+"reviewers": [
+[
+"tjtanaa",
+21
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"accuracy",
+5
+],
+[
+"init not forward",
+4
+],
+[
+"platform guard",
+3
+],
+[
+"e2e perf",
+2
+],
+[
+"tests",
+2
+],
+[
+"aiter pin",
+1
+],
+[
+"blast radius",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": [
+[
+45681,
+3,
+"merged"
+]
+]
+},
+"test_rocm_aiter_moe.py": {
+"n_prs": 2,
+"merged": 2,
+"closed": 0,
+"median_days_to_merge": 23.5,
+"median_comments": 19.0,
+"median_rounds": 6.5,
+"reviewers": [
+[
+"dllehr-amd",
+4
+],
+[
+"hongxiayang",
+3
+],
+[
+"AndreasKaratzas",
+3
+],
+[
+"shen-shanshan",
+2
+],
+[
+"fxmarty-amd",
+1
+],
+[
+"tjtanaa",
+1
+],
+[
+"simondanielsson",
+1
+]
+],
+"themes": [
+[
+"aiter pin",
+3
+],
+[
+"e2e perf",
+2
+],
+[
+"accuracy",
+2
+],
+[
+"flags",
+1
+],
+[
+"blast radius",
+1
+],
+[
+"regression",
+1
+],
+[
+"platform guard",
+1
+],
+[
+"rebase/precommit",
+1
+]
+],
+"examples": [
+[
+55368,
+26,
+"merged"
+],
+[
+53940,
+21,
+"merged"
+]
+]
+},
+"activation_kernels.cu": {
+"n_prs": 3,
+"merged": 2,
+"closed": 1,
+"median_days_to_merge": 6.5,
+"median_comments": 23,
+"median_rounds": 2,
+"reviewers": [],
+"themes": [
+[
+"rebase/precommit",
+2
+],
+[
+"blast radius",
+1
+],
+[
+"reuse",
+1
+]
+],
+"examples": [
+[
+45415,
+7,
+"merged"
+],
+[
+42663,
+6,
+"merged"
+]
+]
+},
+"cache_kernels.cu": {
+"n_prs": 2,
+"merged": 0,
+"closed": 1,
+"median_days_to_merge": null,
+"median_comments": 22.0,
+"median_rounds": 4.5,
+"reviewers": [
+[
+"tjtanaa",
+9
+],
+[
+"dllehr-amd",
+1
+]
+],
+"themes": [
+[
+"accuracy",
+5
+],
+[
+"init not forward",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"tests",
+2
+],
+[
+"blast radius",
+1
+],
+[
+"platform guard",
+1
+],
+[
+"regression",
+1
+]
+],
+"examples": []
+},
+"hadamard_transform_cuda.cu": {
+"n_prs": 3,
+"merged": 0,
+"closed": 3,
+"median_days_to_merge": null,
+"median_comments": 7,
+"median_rounds": 2,
+"reviewers": [],
+"themes": [
+[
+"blast radius",
+2
+]
+],
+"examples": []
+},
+"attn_quant_fusion.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 1,
+"median_comments": 2.5,
+"median_rounds": 0.5,
+"reviewers": [
+[
+"AndreasKaratzas",
+2
+],
+[
+"shen-shanshan",
+2
+]
+],
+"themes": [
+[
+"blast radius",
+1
+],
+[
+"platform guard",
+1
+]
+],
+"examples": [
+[
+58099,
+1,
+"merged"
+]
+]
+},
+"single_type_kv_cache_manager.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 7,
+"median_comments": 9.5,
+"median_rounds": 1.5,
+"reviewers": [
+[
+"shen-shanshan",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+3
+]
+],
+"examples": [
+[
+53598,
+7,
+"merged"
+]
+]
+},
+"mtp.py": {
+"n_prs": 4,
+"merged": 3,
+"closed": 0,
+"median_days_to_merge": 10,
+"median_comments": 10.0,
+"median_rounds": 1.5,
+"reviewers": [
+[
+"simondanielsson",
+9
+],
+[
+"fxmarty-amd",
+6
+],
+[
+"shen-shanshan",
+1
+]
+],
+"themes": [
+[
+"accuracy",
+2
+],
+[
+"e2e perf",
+2
+],
+[
+"platform guard",
+2
+],
+[
+"reuse",
+1
+],
+[
+"blast radius",
+1
+]
+],
+"examples": [
+[
+54770,
+4,
+"merged"
+],
+[
+48763,
+10,
+"merged"
+],
+[
+57568,
+10,
+"merged"
+]
+]
+},
+"chunk_scaled_dot_kkt.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 0,
+"median_days_to_merge": 35,
+"median_comments": 13.5,
+"median_rounds": 2.0,
+"reviewers": [
+[
+"tjtanaa",
+15
+],
+[
+"dllehr-amd",
+2
+]
+],
+"themes": [
+[
+"blast radius",
+10
+],
+[
+"platform guard",
+3
+],
+[
+"init not forward",
+2
+],
+[
+"accuracy",
+2
+]
+],
+"examples": [
+[
+45000,
+35,
+"merged"
+]
+]
+},
+"gpt_oss.py": {
+"n_prs": 2,
+"merged": 1,
+"closed": 1,
+"median_days_to_merge": 85,
+"median_comments": 16.5,
+"median_rounds": 4.5,
+"reviewers": [
+[
+"Fangzhou-Ai",
+1
+],
+[
+"BowenBao",
+1
+]
+],
+"themes": [
+[
+"init not forward",
+1
+]
+],
+"examples": [
+[
+44834,
+85,
+"merged"
+]
+]
+}
+}
+}
